@@ -1,0 +1,78 @@
+.resetBtn button{
+  display: block;
+  margin: 20px auto;
+  width: 20%;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: rgb(26, 172, 0);
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.resetBtn button:hover{
+  background-color: rgb(3, 92, 0);
+}
+.resetBtn button:active{
+  background-color: rgb(26, 172, 0);
+}
+
+.box{
+    display: flex;
+    margin: auto;
+    background-color: rgb(0, 195, 0);
+    padding: 10px;
+    width: 30vw;
+    height: 30vw;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .row{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .input{
+    width: 5vw;
+    height: 5vw;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+  }
+  
+  .status{
+    display: flex;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    justify-content: space-around;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #result{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px auto;
+  }
+
+  @media screen and (max-width: 769px){
+  .input{
+    font-size: 100%;
+    font-weight: bold;
+  }
+  .status{
+    font-size: large;
+  }
+  .resetBtn button{
+    width: 50%;
+    font-size: large;
+  }
+}
